@@ -24,8 +24,12 @@ peso_controllers.pesoObtenidos = (req,res)=>{
        let pesoA = (paciente.pesoinit-paciente.pesointer)
        let objPacientes={}
        objPaciente['nombre'] = paciente.nombre;
-       objPaciente['peso'] = pesoActual;
+       objPaciente['peso'] = pesoA;
        //cuantos pacientes alcanzaron su objetivo
+       let pesoestado = (pacie)
+       let obj_estado={}
+       obj_estado['nombre'] = paciente.nombre;
+       objPaciente['peso'] = pesoestado;
        }
 
     }

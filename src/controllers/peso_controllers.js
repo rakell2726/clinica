@@ -21,7 +21,10 @@ peso_controllers.pesoObtenidos = (req,res)=>{
         
 
        //pacientes perdieron peso entre la pesada inicial y la pesada intermedia
-
+       let pesoA = (paciente.pesoinit-paciente.pesointer)
+       let objPacientes={}
+       objPaciente['nombre'] = paciente.nombre;
+       objPaciente['peso'] = pesoActual;
        //cuantos pacientes alcanzaron su objetivo
        }
 
